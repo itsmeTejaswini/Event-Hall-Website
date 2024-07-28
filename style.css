@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+ .martel-extralight {
+    font-family: "Martel", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .martel-light {
+    font-family: "Martel", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .martel-regular {
+    font-family: "Martel", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .martel-semibold {
+    font-family: "Martel", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .martel-bold {
+    font-family: "Martel", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .martel-extrabold {
+    font-family: "Martel", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .martel-black {
+    font-family: "Martel", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .martel-bold {
+    font-family: "Martel", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .martel-extrabold {
+    font-family: "Martel", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .martel-black {
+    font-family: "Martel", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  /* for nav bar */
+  .navbar{
+    font-size: 16px;
+    background-color: rgb(76, 72, 66);
+    box-shadow: 0 5px 15px rgb(173, 124, 179);
+  }
+  .navbar-expand-lg .logo{
+        font-size: 1.5rem;
+        color: rgb(249, 246, 246);
+        font-weight: 600;
+        letter-spacing: .1rem;
+        text-decoration: none;
+    }
+    
+    span {
+      color: rgb(249, 246, 246);
+        font-size: 1.5rem;
+    }
+    .fa, .fas {
+        font-weight: 900;
+    }
+    .fa, .far, .fas {
+        font-family: "Font Awesome 5 Free";
+    }
+    .fa, .fab, .fad, .fal, .far, .fas {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+    .fa-heart {
+        color: red;
+    }
+  
+/* trasition means quikly highlight when we plaaces cursor*/
+ .navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0 25px;
+    color: rgb(223, 217, 217);
+    transition: 0.3s ease;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link:hover,
+  .navbar i:hover,
+  .navbar-expand-lg .navbar-nav .nav-link.active,
+  .navbar i.active{
+  color: rgb(88, 21, 6);
+  font-size: 1.2rem;
+  /* font-weight: 500; */
+  }
+
+  .navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  /* mobile nav */
+  .navbar-expand-lg .navbar-toggler{
+    border: none;
+    outline: none;
+  }
+  #bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: black;
+  }
+  #bar:hover,
+  #bar.active{
+    color: aliceblue;
+  }
+  @media only screen and (max-width:991px){
+    body > nav > div > button:hover,
+    body > nav > div > button:focus{
+      background-color: rgb(110, 26, 26);
+    }
+    body > nav > div > button:hover #bar,
+    body > nav > div > button:focus #bar{
+      color: antiquewhite;
+    }
+    #navbarSupportedContent > ul{
+      margin: 1rem;
+      /* i want right side all the ul elements, thats why
+      i taken flex-end,right  */
+      justify-content: flex-end;
+      align-items: flex-end;
+      text-align: right;
+    }
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+      padding: 10px 0;
+      
+    }
+  }
+  /* home section */
+  #home{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("back-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  .heading {
+    color: white;
+    text-align: center;
+}
+
+.heading h1 {
+    padding: 18rem 0 0 0;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+/* footer */
+footer{
+      background-color: #2a2a2a;
+    }
+    footer h5{
+      text-wrap: nowrap;
+      color: aliceblue;
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+    footer .logo1{
+      font-size: 1.4rem;
+        color: rgb(249, 246, 246);
+        font-weight: 500;
+        letter-spacing: .1rem;
+        text-decoration: none;
+        text-wrap: nowrap;
+    }
+    footer .logo1:hover{
+      transition: 0.3s ease;
+      font-size: 1.4rem;
+      color: rgb(203, 187, 187);
+      font-weight: 500;
+      letter-spacing: .1rem;
+      text-decoration: none;
+      text-wrap: nowrap;
+    }
+   
+    footer .fa, .fas {
+      font-weight: 900;
+     }
+    footer .fa, .far, .fas {
+      font-family: "Font Awesome 5 Free";
+    }
+    footer .fa, .fab, .fad, .fal, .far, .fas {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      line-height: 1;
+  }
+   footer .fa-heart {
+      color: red;
+  }
+    footer h2{
+      color:rgb(168, 130, 150);
+      font-weight: 400;
+      font-size: 1.3rem;
+      text-wrap: nowrap;
+    }
+    footer .footer-one1 .btnf {
+      background:rgb(168, 130, 150);
+      color: #fff;
+      cursor: pointer;
+     height: 40px;
+     width: 80%;
+      border-radius: .2rem;
+  }
+  footer .footer-one1 .btnf .reg1{
+    background:rgb(168, 130, 150);
+      color: #fff;
+      cursor: pointer;
+     height: 40px;
+     width: 80%;
+      border-radius: .2rem;
+      text-decoration: none;
+  }
+  footer .footer-one1 .loc a{
+    color: #fff;
+    background-color:rgb(168, 130, 150);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    transition: 0.3s ease;
+    margin: 0 7px;
+  }
+  footer .footer-one1 .loc a:hover{
+    color:  rgb(231, 218, 218);
+    background-color:  rgb(82, 36, 7);;
+  }
+
+    footer .locp .p1 a {
+      color: rgb(168, 130, 150);
+      font-weight: 200;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    footer .locp .p1 a:hover {
+      color: aliceblue;
+      cursor: pointer;
+      font-weight: 400;
+    }
+  
+  footer li{
+    padding-bottom: 4px;
+  }
+  footer li a{
+    font-size: 0.8rem;
+    color: rgb(168, 130, 150);
+  }
+  footer li a:hover{
+    color:rgb(215, 196, 206);
+
+  }
+  footer p{
+    color: rgb(168, 130, 150);
+    font-size: 1.8rem;
+    font-weight: 500;
+
+  }
+ 
+
+  footer .footer-one3 .loc2 a{
+    color: #fff;
+    background-color:rgb(168, 130, 150);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    transition: 0.3s ease;
+    margin: 0 7px;
+    padding: 0 0 0 12px;
+    text-wrap: nowrap;
+    text-decoration: none;
+  }
+  footer .footer-one3 .loc2 a:hover{
+    color: rgb(231, 218, 218);
+    background-color: rgb(82, 36, 7);
+  }
+
+  /*-------------------services--------------*/
+
+/*  /*  for blog */
+.hr1{
+  width: 50px;
+  border: none;
+  height: 2px;
+  background: deeppink;
+}
+  #blog-container .post .post-img{
+    /* overflow hidding the property iniside */
+    overflow: hidden;
+    cursor: pointer;
+  }
+  #blog-container .post img{
+    /* transition is used to smooth transition */
+    transition: 0.3s ease;
+  }
+   #new .post img {
+    height: 250px;
+    width: 100px;
+    color: rgb(236, 68, 90);
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    flex: 1 1 25rem;
+    /* margin: 3px;
+    padding: 3px; */
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+#new .post .details{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding:15px 20px;
+
+}
+#new .post .details a{
+  color: rgb(236, 68, 90);
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+#new .post .details a:hover{
+  color: rgb(236, 68, 90);
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.post i {
+    padding: 1.0rem;
+    border: none;
+    color: rgb(236, 68, 90);
+    background: aliceblue;
+    border-radius: 50%;
+    font-size: 2.0rem;
+}
+
+.post h2 {
+    padding: 1rem 0;
+    font-size: 1.0rem;
+    color: #000;
+    text-wrap: nowrap;
+}
+
+.post p {
+    font-size: 1.0rem;
+    color: #000;
+}
+
+/* banner */
+#banner{
+  background-image: url(banner1.jpg);
+  width: 100%;
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: top 70px center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#banner h4{
+  color: aliceblue;
+}
+#banner h1{
+  color: rgb(41, 78, 48);
+}
+ 
+/* vendors */
+.star{
+  padding: 10px 0;
+}
+.star i{
+  font-size: 0.8rem;
+  color: gold;
+}
+.product{
+  cursor: pointer;
+  margin-bottom: 2rem;
+
+}
+.product img{
+  transition: o.3s all;
+  height: 300px;
+  width: 300px;
+}
+.product:hover img{
+  opacity: 0.7;
+}
+/* for removing button  */
+.product .buy-btn{
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: aliceblue;
+  background-color:rgb(222, 60, 146);
+  padding: 13px 30px;
+  text-transform: uppercase;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s all; 
+
+}
+.product:hover .buy-btn{
+  transform: translateY(0);
+  opacity: 1;
+}

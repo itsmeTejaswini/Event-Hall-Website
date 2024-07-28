@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" 
+     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">   
+    <script src="https://kit.fontawesome.com/02df9297e5.js" crossorigin="anonymous"></script>
+    <style>
+
+.star1{
+  text-wrap: nowrap;
+}
+ .sn1{
+  color: grey;
+  align-items: flex-start;
+  padding-right: 10px;
+
+}
+.star1 i{
+  font-size: 0.8rem;
+  color: gold;
+  text-wrap: nowrap;
+}
+.product1{
+  cursor: pointer;
+
+}
+.product1 img{
+  transition: o.3s all;
+  height: 300px;
+  width: 300px;
+  background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 15px; */
+    flex: 1 1 25rem;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.product1:hover img{
+  opacity: 0.7;
+}
+.p-price1 a{
+  color: gray;
+}
+.p-price1 i{
+  color: black;
+  font-size: 1.5rem;
+}
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 mb-5 fixed-top"><!--fixed-top is a bootstrap class fixed the navbar in top-->
+        <!-- container-fluid for littlebit space and container fluid for large spaace in navbar -->
+          <div class="container ">
+            <a href="#" class="logo"><i class="fas fa-heart"></i>&nbsp;Bhavani<span>Event</span>Hall&nbsp;<i class="fas fa-heart"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
+            <!-- our navigation bar -->
+              <span><i id="bar" class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="vendors.html">Vendors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bookus.html">Book Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+                </ul>
+  
+            </div>
+          </div>
+    </nav>
+    <section id="featured" class=" invitation pt-5 mt-5 ">
+      <div class="container text-center ">
+        <h3><a name="invitation">Invitation Cards  Details</a></h3>
+        <hr class="hr1">
+        <p>Here u can check out about services details</p>
+      </div>
+      <!-- mx-auto means margin from left and right is auto
+      container-fluid little bit space from leeft and right -->
+      <div class="row mx-auto container-fluid my-3 py-1">
+        <div class="product1 text-left col-lg-4 col-md-6 col-12 ">
+          <img class="img-fluid " src="card-6.jpg" alt="">
+          <div class="star1">
+            <p><span class="sn1">Prashanth</span>
+            <i class="fa-solid fa-star"></i>
+            4.5 (100 reviews)</p>
+          <h5 class="p-name1 text-left">Starting price per card</h5>
+          <h4 class="p-price1 text-left"><i class="fa-solid fa-indian-rupee-sign"></i>50&nbsp;&nbsp;&nbsp; <a href="#">Book Now</a></h4>
+          </div>
+        </div>
+        <div class="product1 text-left col-lg-4 col-md-6 col-12 ">
+          <img class="img-fluid" src="card-11.jpg" alt="">
+          <div class="star1">
+            <p><span class="sn1">We Design</span>
+              <i class="fa-solid fa-star"></i>
+              5.0 (1000 reviews)</p>
+          
+          <h5 class="p-name1 text-left">Starting price per card</h5>
+          <h4 class="p-price1 text-left"><i class="fa-solid fa-indian-rupee-sign"></i>30&nbsp;&nbsp;&nbsp;<a href="#">Book Now</a></h4>
+          </div>
+        </div>
+        <div class="product1 text-left col-lg-4 col-md-6 col-12 ">
+          <img class="img-fluid" src="card-12.jpg" alt="">
+          <div class="star1">
+            <p><span class="sn1">Jet Arts</span>
+              <i class="fa-solid fa-star"></i>
+              4.0 (80 reviews)</p>
+          <h5 class="p-name1 text-left">Starting price per card</h5>
+          <h4 class="p-price1 text-left"><i class="fa-solid fa-indian-rupee-sign"></i>25&nbsp;&nbsp;&nbsp;<a href="#">Book Now</a></h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="featured" class="pt-5 mt-5 ">
+      <div class="container text-center ">
+        <h3><a name="photography">Photography and Vedio  Details</a></h3>
+        <hr class="hr1">
+      </div>
+      <!-- mx-auto means margin from left and right is auto
+      container-fluid little bit space from leeft and right -->
+      <div class="row mx-auto container-fluid  py-1">
+        <div class="product1 text-left col-lg-4 col-md-6 col-12 ">
+          <img class="img-fluid " src="photography3.jpg" alt="">
+          <div class="star1">
+            <p><span class="sn1">pranav</span>
+            <i class="fa-solid fa-star"></i>
+            4.5 (100 reviews)</p>
+          <h5 class="p-name1 text-left">Starting price per day</h5>
+          <h4 class="p-price1 text-left"><i class="fa-solid fa-indian-rupee-sign"></i>50k-1L&nbsp;&nbsp;&nbsp; <a href="#">Book Now</a></h4>
+          </div>
+        </div>
+        <div class="product1 text-left col-lg-4 col-md-6 col-12 ">
+          <img class="img-fluid" src="photography2.jpg" alt="">
+          <div class="star1">
+            <p><span class="sn1">shawrav</span>
+              <i class="fa-solid fa-star"></i>
+              5.0 (1000 reviews)</p>
+          
+          <h5 class="p-name1 text-left">Starting price per day</h5>
+          <h4 class="p-price1 text-left"><i class="fa-solid fa-indian-rupee-sign"></i>30K-1.5L&nbsp;&nbsp;&nbsp;<a href="#">Book Now</a></h4>
+          </div>
+        </div>
+        <div class="product1 text-left col-lg-4 col-md-6 col-12 ">
+          <img class="img-fluid" src="photography1.jpg" alt="">
+          <div class="star1">
+            <p><span class="sn1">charith</span>
+              <i class="fa-solid fa-star"></i>
+              4.0 (80 reviews)</p>
+          <h5 class="p-name1 text-left">Starting price per day</h5>
+          <h4 class="p-price1 text-left"><i class="fa-solid fa-indian-rupee-sign"></i>50k-1L&nbsp;&nbsp;&nbsp;<a href="#">Book Now</a></h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="featured" class=" pt-5 mt-5 ">
+      <div class="container text-center ">
+        <h3><a name="decoration">Decoration  Details</a></h3>
+        <hr class="hr1">
+      </div>
+      <!-- mx-auto means margin from left and right is auto
+      container-fluid little bit space from leeft and right -->
+      <div class="row mx-auto container-fluid py-1">
+        <div class="product1 text-left col-lg-4 col-md-6 col-12 ">
+          <img class="img-fluid " src="im2.jpg" alt="">
+          <div class="star1">
+            <p><span class="sn1">wed me good</span>
+            <i class="fa-solid fa-star"></i>
+            4.5 (100 reviews)</p>
+          <h5 class="p-name1 text-left">Starting price per day</h5>
+          <h4 class="p-price1 text-left"><i class="fa-solid fa-indian-rupee-sign"></i>1L-1.5L&nbsp;&nbsp;&nbsp; <a href="#">Book Now</a></h4>
+          </div>
+        </div>
+        <div class="product1 text-left col-lg-4 col-md-6 col-12 ">
+          <img class="img-fluid" src="im5.jpg" alt="">
+          <div class="star1">
+            <p><span class="sn1">vishwash </span>
+              <i class="fa-solid fa-star"></i>
+              5.0 (1000 reviews)</p>
+          
+          <h5 class="p-name1 text-left">Starting price per day</h5>
+          <h4 class="p-price1 text-left"><i class="fa-solid fa-indian-rupee-sign"></i>30-70k&nbsp;&nbsp;&nbsp;<a href="#">Book Now</a></h4>
+          </div>
+        </div>
+        <div class="product1 text-left col-lg-4 col-md-6 col-12 ">
+          <img class="img-fluid" src="im6.jpg" alt="">
+          <div class="star1">
+            <p><span class="sn1">Jet flowers</span>
+              <i class="fa-solid fa-star"></i>
+              4.0 (80 reviews)</p>
+          <h5 class="p-name1 text-left">Starting price per day</h5>
+          <h4 class="p-price1 text-left"><i class="fa-solid fa-indian-rupee-sign"></i>10-90k&nbsp;&nbsp;&nbsp;<a href="#">Book Now</a></h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-3 py-3 ">
+        <div class="row container mx-auto mt-4 pb-3">
+          <div class="footer-one1 col-lg-5 col-md-6 col-12">
+            <div class="hicon">
+            <a href="#" class="logo1"><i class="fas fa-heart"></i>&nbsp;Bhavani<span>Event</span>Hall&nbsp;<i class="fas fa-heart"></i></a>
+            </div>
+            <h2 class="pt-3">Plan your wedding with us</h2><br>
+            <div class="pt-auto">
+              <button class="btnf"><a href="#" class="reg1">Register as a Vendor</a></button>
+           </div>
+           <h5 class="mt-3 pb-1">Our Location</h5>
+           <div class="loc">
+           <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+          <div class="locp">
+            <h6 class="p1"><a>Basvangudi,Bengaluru city,karnataka</a></h6>
+          </div>
+  
+          </div>
+          <div class="footer-one col-lg-4 col-md-6 col-12 ">
+            <h5 class="pb-2">OUR NAVIGATION</h5>
+            <ul class="text-uppercase list-unstyled">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">SERVICE</a></li>
+              <li><a href="#">VENDORS</a></li>
+              <li><a href="#">GALLERY</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">BOOK US</a></li>
+              <li><a href="#">CONTACT US</a></li>
+            </ul>
+          </div>
+          <div class="footer-one3 col-lg-3 col-md-3 col-12 ">
+            <div class="loc2">
+            <h5 class="pb-2">FOLLOW US ON</h5>
+            <ul class="text-uppercase list-unstyled">
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHATSAPP</a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSTAGRAM</a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FACEBOOK</a></li>
+              <li><a href="#"><i class="fa-brands fa-pinterest"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PINTEREST</a></li>
+    
+            </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="copyright mt-3">
+          <!-- avoiding slider from bottom write container and mx-auto -->
+          <div class="row container mx-auto ">
+           
+            <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-3">
+              <p style="font-size: 12pt;"><i class="fa-regular fa-copyright"></i>Copyright<span style="color: aliceblue;">Bhavani Event Hall.</span>All Rights Reserved</p>
+             <p><span style="color: aliceblue;">Designed</span> by Tejaswini N</p>
+            </div>
+           
+          </div>
+        </div>
+      </footer>
+    
+      
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" 
+  crossorigin="anonymous"></script>
+  </body>
+  </html>
